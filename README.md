@@ -1,5 +1,11 @@
-# Lexa
+# Lexa [![Travis build status](https://travis-ci.org/koushikr/lexa.svg?branch=master)](https://travis-ci.org/koushikr/lexa)
 
+> Science is the systematic classification of experience
+> - by George Henry Lewes
+
+> Nomenclature, the other foundation of botany, should provide the names as soon as the classification is made… If the names are unknown knowledge of the things also perishes… For a single genus, a single name.
+> - by Carl Linnaeus
+      
 Lexa is a quick, easy to use CMS written atop [jElastic](https://github.com/koushikr/jelastic)
 
 # Capabilities 
