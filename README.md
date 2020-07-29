@@ -2,17 +2,16 @@
 
 Lexa is a quick, easy to use CMS written atop [jElastic](https://github.com/koushikr/jelastic)
 
-# Lexa
-Lexa helps with capabilities to 
-  - Create a category graph against a serviceType
+# Capabilities 
+  - Create a category graph against a category group
   - Create free data Indexes
   - Update the data in the indexes
   - Perform CRUD using a Query interface on the index.
   
 # Key Concepts
 
-  - Category      : A category is a logical grouping of any homogenous service offering. (Eg: Food, Travel etc) 
-  - Manifest      : A manifest is a free data index with a schema which holds onto homogenous data again to be served to app. A manifest can exist independently regardless of the category. (Eg : Prepaid Recharge Plans, Cities in India, Mobile Operators in India etc)
+  - Category      : A category is a logical grouping of any homogeneous service offering. (Eg: Food, Travel etc) 
+  - Manifest      : A manifest is a free data index with a schema which holds onto homogeneous data again to be served to app. A manifest can exist independently regardless of the category. (Eg : Prepaid Recharge Plans, Cities in India, Mobile Operators in India etc)
   - CategoryGroup : A category group is a logical grouping of one or more categories. Eg : FMCG etc
   - Category Graph : A category graph is the forrest representation of the such category groups!  
   
