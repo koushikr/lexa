@@ -1,7 +1,5 @@
 package io.github.lexa.definition.exceptions;
 
-import lombok.Getter;
-
 /**
  * Copyright 2020 Koushik R <rkoushik.14@gmail.com>.
  * <p>
@@ -24,6 +22,26 @@ public enum  LexaCode implements LexaError{
         public int responseCode() {
             return 400;
         }
-    }
+    },
 
+    CATEGORY_SCHEMA_EXISTS {
+        @Override
+        public int responseCode() {
+            return 400;
+        }
+    },
+
+    CATEGORY_ALREADY_EXISTS {
+        @Override
+        public int responseCode() {
+            return 400;
+        }
+    },
+
+    NO_CATEGORY_FOUND {
+        @Override
+        public int responseCode() {
+            return 400;
+        }
+    }
 }

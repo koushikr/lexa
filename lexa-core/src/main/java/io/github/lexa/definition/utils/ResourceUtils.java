@@ -34,7 +34,6 @@ public class ResourceUtils {
         throw new IllegalStateException("Query Utility Class");
     }
 
-
     public static <T> T getNormalizedValue(T object) {
         if (object instanceof String) {
             return (T) ((String) object).toLowerCase();

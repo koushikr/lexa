@@ -14,9 +14,8 @@
     <inceptionYear>2020</inceptionYear>
 
     <modules>
-        <module>lexa-definition</module>
-        <module>lexa-jelastic</module>
-        <module>lexa-jelastic-dw</module>
+        <module>lexa-core</module>
+        <module>lexa-core-dw</module>
     </modules>
 
     <licenses>
@@ -50,7 +49,6 @@
     <properties>
         <!-- https://maven.apache.org/general.html#encoding-warning -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <lexa.definition.version>0.0.1</lexa.definition.version>
 
         <slf4j.version>1.7.25</slf4j.version>
         <log4j.version>2.11.0</log4j.version>

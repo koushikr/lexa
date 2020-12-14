@@ -1,7 +1,6 @@
 package io.github.lexa.definition.schema.ingestion;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import io.github.lexa.definition.schema.ingestion.mapping.MappingTypeDefinition;
 import io.github.lexa.definition.schema.profiles.EntityType;
 import lombok.*;
 
@@ -38,8 +37,8 @@ public class CategoryIngestionRequest extends IngestionRequest{
 
     @Builder
     public CategoryIngestionRequest(String id, String serviceType, String rootCategoryId,
-                                    MappingTypeDefinition mappingTypeDefinition, Object data) {
-        super(id, EntityType.CATEGORY, mappingTypeDefinition, data);
+                                    Object data) {
+        super(id, EntityType.CATEGORY, data);
 
         this.serviceType = serviceType;
         this.rootCategoryId = rootCategoryId;
