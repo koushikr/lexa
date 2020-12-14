@@ -1,4 +1,4 @@
-package io.github.lexa.definition.ingestion.models;
+package io.github.lexa.definition.schema.ingestion;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonSubTypes;

@@ -1,7 +1,6 @@
-package io.github.lexa.definition.ingestion.models;
+package io.github.lexa.definition.schema.ingestion;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import io.github.lexa.definition.ingestion.models.mapping.MappingTypeDefinition;
 import io.github.lexa.definition.schema.profiles.EntityType;
 import lombok.*;
 
@@ -27,21 +26,20 @@ import javax.validation.constraints.NotEmpty;
 @Setter
 @AllArgsConstructor
 @ToString
-public class CategoryIngestionRequest extends IngestionRequest{
+public class ManifestIngestionRequest extends IngestionRequest{
 
-    private String serviceType;
-
-    //x. Is the parent categoryId in the title. Read more like a group
+    /**
+     * Used to identify which index to ingest this in.
+     */
     @NonNull
     @NotEmpty
-    private String rootCategoryId;
+    private String manifestId;
 
     @Builder
-    public CategoryIngestionRequest(String id, String serviceType, String rootCategoryId,
-                                    MappingTypeDefinition mappingTypeDefinition, Object data) {
-        super(id, EntityType.CATEGORY, mappingTypeDefinition, data);
+    public ManifestIngestionRequest(String id, String manifestId, Object data) {
+        super(id, EntityType.MANIFEST, data);
 
-        this.serviceType = serviceType;
-        this.rootCategoryId = rootCategoryId;
+        this.manifestId = manifestId;
     }
+
 }

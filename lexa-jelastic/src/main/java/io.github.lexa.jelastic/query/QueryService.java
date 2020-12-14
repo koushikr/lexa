@@ -1,4 +1,4 @@
-package io.github.lexa.definition.query;
+package io.github.lexa.jelastic.query;
 
 import io.github.jelastic.core.models.query.Query;
 import io.github.jelastic.core.models.query.paged.PageWindow;
@@ -25,7 +25,6 @@ public interface QueryService {
 
     /**
      * Get the list of sources given a serviceType {@link String}, a categoryId, a query object
-     * {@link io.github.jelastic.core.models.query.Query} and the corresponding klass T.
      *
      * @param serviceType {@link String} The serviceType associated with the search
      * @param categoryId  {String}  The categoryId associated with the search

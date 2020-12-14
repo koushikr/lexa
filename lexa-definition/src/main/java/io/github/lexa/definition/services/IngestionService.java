@@ -1,6 +1,6 @@
-package io.github.lexa.definition.ingestion;
+package io.github.lexa.definition.services;
 
-import io.github.lexa.definition.ingestion.models.IngestionRequest;
+import io.github.lexa.definition.schema.ingestion.IngestionRequest;
 
 /**
  * Copyright 2020 Koushik R <rkoushik.14@gmail.com>.
