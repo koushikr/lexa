@@ -18,7 +18,7 @@ Lexa is a quick, easy to use CMS written atop [jElastic](https://github.com/kous
 
   - Category      : A category is a logical grouping of any homogeneous service offering. (Eg: Food, Travel etc) 
   - Manifest      : A manifest is a free data index with a schema which holds onto homogeneous data again to be served to app. A manifest can exist independently regardless of the category. (Eg : Prepaid Recharge Plans, Cities in India, Mobile Operators in India etc)
-  - CategoryGroup : A category group is a logical grouping of one or more categories. Eg : FMCG etc
+  - serviceType   : A category group is a logical grouping of one or more categories. Eg : FMCG etc
   - Category Graph : A category graph is the forrest representation of the such category groups!  
   
 You can also:
@@ -38,12 +38,11 @@ Lexa is a lightweight interface on top of [jElastic](https://github.com/koushikr
 
 ### Tech
 
-Lexa uses a number of open source projects to work properly:
+Lexa uses a number of open source projects to work:
 
 * [Dropwizard](https://github.com/dropwizard/dropwizard) - To float the application!
 * [Elasticsearch](https://www.elastic.co/) - Data store that is used.
 * [RabbitMQ](https://www.rabbitmq.com/) - Messaging that just works.
-* [Hazelcast](https://hazelcast.com/) - The in-memory data grid.
 
 ### Docker
 Lexa is very easy to install and deploy in a Docker container.

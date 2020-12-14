@@ -9,9 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.lexa</groupId>
-    <artifactId>lexa-core</artifactId>
-    <version>0.0.1</version>
-    <packaging>jar</packaging>
+    <artifactId>lexa-jelastic-dw</artifactId>
+
 
 </project>
