@@ -19,23 +19,21 @@ If you want to use Lexa as part of a dropwizard service, this bundle helps you b
     }
 ```
 
-### Maven Dependency
-Use the following repository:
-```xml
-<repository>
-    <id>clojars</id>
-    <name>Clojars repository</name>
-    <url>https://clojars.org/repo</url>
-</repository>
-```
-Use the following maven dependency
-```xml
-<dependency>
-    <groupId>io.github.lexa</groupId>
-    <artifactId>lexa-core-dw</artifactId>
-    <version>7.2.0-4</version>
-</dependency>
-```
+### Maven Dependency 
+Shall be added once test sute is complete. WIP!
+
+### No, I'll still build it..
+
+Well, here you go
+
+#### Build instructions
+  - Clone the source:
+
+        git clone github.com/koushikr/jelastic
+
+  - Build
+
+        mvn install
 
 ### Version support
 | jelastic               |  es transport client|
