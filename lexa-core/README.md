@@ -1,12 +1,12 @@
+# Lexa Core
 
-
-# Capabilities 
+## Capabilities 
   - Create a category graph against a category group
   - Create free data Indexes
   - Update the data in the indexes
   - Perform CRUD using a Query interface on the index.
   
-# Key Concepts
+## Key Concepts
 
   - Category      : A category is a logical grouping of any homogeneous service offering. (Eg: Food, Travel etc) 
   - Manifest      : A manifest is a free data index with a schema which holds onto homogeneous data again to be served to app. A manifest can exist independently regardless of the category. (Eg : Prepaid Recharge Plans, Cities in India, Mobile Operators in India etc)
@@ -28,7 +28,7 @@ Lexa is a lightweight interface on top of [jElastic](https://github.com/koushikr
 > without having to create any additional boiler plate code
 > to support the same or any further instructions.
 
-### Build instructions
+## Build instructions
   - Clone the source:
 
         git clone github.com/koushikr/jelastic
