@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lexa-definition</artifactId>
+    <artifactId>lexa-core</artifactId>
 
     <dependencies>
 
@@ -92,6 +92,13 @@
             <groupId>io.appform.functionmetrics</groupId>
             <artifactId>function-metrics</artifactId>
             <version>1.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <!-- Caffeine -->
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>2.5.5</version>
         </dependency>
 
         <!-- Test Case Utils -->
