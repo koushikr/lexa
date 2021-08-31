@@ -59,7 +59,7 @@
         <!-- https://maven.apache.org/general.html#encoding-warning -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <lexa.core.version>0.0.1</lexa.core.version>
+        <lexa.core.version>7.2.0-4</lexa.core.version>
 
         <dropwizard.version>2.0.15</dropwizard.version>
         <lombok.version>1.18.6</lombok.version>
