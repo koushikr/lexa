@@ -17,6 +17,15 @@
         <module>lexa-core</module>
         <module>lexa-core-dw</module>
     </modules>
+         
+     <repositories>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars repository</name>
+            <url>https://clojars.org/repo</url>
+        </repository>
+    </repositories>
+
 
     <licenses>
         <license>
