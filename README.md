@@ -1,4 +1,4 @@
-# Lexa [![Travis build status](https://travis-ci.org/koushikr/lexa.svg?branch=master)](https://travis-ci.org/koushikr/lexa)
+# Lexa [![Travis build status](https://app.travis-ci.com/koushikr/lexa.svg?branch=master)](https://app.travis-ci.com/koushikr/lexa)
 
 > Science is the systematic classification of experience
 > - by George Henry Lewes
